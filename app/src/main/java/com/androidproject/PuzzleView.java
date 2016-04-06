@@ -2,31 +2,41 @@ package com.androidproject;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.view.MotionEvent;
 import android.view.View;
 
+import java.util.List;
 
-public class MainView extends View {
-    private Bitmap image;
-    private float imageX;
-    private float imageY;
 
-    public MainView(Context context) {
+public class PuzzleView extends View {
+    private Bitmap bitmap;
+    private int width;
+    private int height;
+    private int rows;
+    private int columns;
+    private List<PuzzlePiece> puzzlePieces;
+
+    public PuzzleView(Context context, Bitmap bitmap, int width, int height, int rows, int columns) {
         super(context);
-        imageX = 0;
-        imageY = 0;
+        this.bitmap = bitmap;
+        this.width = width;
+        this.height = height;
+        this.rows = rows;
+        this.columns = columns;
+        Slicer slicer = new Slicer(bitmap,width,height,rows,columns);
+        puzzlePieces=slicer.getPuzzlePieces();
+        puzzlePieces.remove(puzzlePieces.size()-1); //remove the last piece from the puzzle
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        image = BitmapFactory.decodeResource(getResources(), R.drawable.image);
-        canvas.drawBitmap(image, imageX, imageY, null);
+        for (PuzzlePiece puzzlePiece:puzzlePieces) {
+            canvas.drawBitmap(puzzlePiece.getBitmap(), puzzlePiece.getCoordinateX(), puzzlePiece.getCoordinateY(), null);
+        }
     }
 
-    @Override
+    /*@Override
     public boolean onTouchEvent(MotionEvent motionEvent) {
         switch (motionEvent.getAction()) {
             case MotionEvent.ACTION_UP:
@@ -51,5 +61,5 @@ public class MainView extends View {
                 )
             return true;
         return false;
-    }
+    }*/
 }
