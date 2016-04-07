@@ -3,6 +3,7 @@ package com.androidproject;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.view.MotionEvent;
 import android.view.View;
 
 import java.util.List;
@@ -14,52 +15,52 @@ public class PuzzleView extends View {
     private int height;
     private int rows;
     private int columns;
+    public static int x;
+    public static int y;
     private List<PuzzlePiece> puzzlePieces;
 
-    public PuzzleView(Context context, Bitmap bitmap, int width, int height, int rows, int columns) {
+    public PuzzleView(Context context, Bitmap bitmap, int width, int height, int rows, int columns,int x,int y) {
         super(context);
         this.bitmap = bitmap;
         this.width = width;
         this.height = height;
         this.rows = rows;
         this.columns = columns;
-        Slicer slicer = new Slicer(bitmap,width,height,rows,columns);
+        this.x=x;
+        this.y=y;
+        ImageSlicer slicer = new ImageSlicer(bitmap,width,height,rows,columns);
         puzzlePieces=slicer.getPuzzlePieces();
-        puzzlePieces.remove(puzzlePieces.size()-1); //remove the last piece from the puzzle
+        puzzlePieces.remove(puzzlePieces.size() - 1); //remove the last piece from the puzzle
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         for (PuzzlePiece puzzlePiece:puzzlePieces) {
-            canvas.drawBitmap(puzzlePiece.getBitmap(), puzzlePiece.getCoordinateX(), puzzlePiece.getCoordinateY(), null);
+            canvas.drawBitmap(puzzlePiece.getBitmap(), puzzlePiece.getX(), puzzlePiece.getY(), null);
         }
     }
 
-    /*@Override
+    @Override
     public boolean onTouchEvent(MotionEvent motionEvent) {
-        switch (motionEvent.getAction()) {
-            case MotionEvent.ACTION_UP:
-                imageX = 0;
-                imageY = 0;
-                break;
-            default:
-                if(isImageTouched(motionEvent)){
-                    imageX = motionEvent.getX() - image.getWidth() / 2;
-                    imageY = motionEvent.getY() - image.getHeight() / 2;
+        if(motionEvent.getAction()==MotionEvent.ACTION_UP){
+            for(PuzzlePiece puzzlePiece:puzzlePieces){
+                if(puzzlePiece.wasTouched()){
+                    if(puzzlePiece.getX()>(PuzzleView.x+puzzlePiece.getCoordinateX()*puzzlePiece.getBitmap().getWidth())+puzzlePiece.getBitmap().getWidth()/2)
+                        puzzlePiece.slideRight();
+                    else
+                        puzzlePiece.slideBack();
                 }
-                break;
+            }
+        }else{
+            for(PuzzlePiece puzzlePiece:puzzlePieces){
+                if(puzzlePiece.isTouched(motionEvent)){
+                    puzzlePiece.followTouch(motionEvent);
+                }
+            }
         }
         invalidate();
         return true;
     }
 
-    private boolean isImageTouched(MotionEvent motionEvent){
-        if(
-                imageX<=motionEvent.getX() && motionEvent.getX()<=imageX+image.getWidth() &&
-                imageY<=motionEvent.getY() && motionEvent.getY()<=imageY+image.getHeight()
-                )
-            return true;
-        return false;
-    }*/
 }

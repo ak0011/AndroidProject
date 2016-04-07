@@ -5,14 +5,14 @@ import android.graphics.Bitmap;
 
 import java.util.ArrayList;
 
-public class Slicer {
+public class ImageSlicer {
     private Bitmap source;
     private int rows; //number of rows the source image should be sliced into
     private int columns; //number of columns the source image should be sliced into
     private int width; //width of the puzzle image
     private int height; //height of the puzzle image
 
-    public Slicer(Bitmap source, int width, int height, int rows, int columns) {
+    public ImageSlicer(Bitmap source, int width, int height, int rows, int columns) {
         this.source = source;
         this.width = width;
         this.height = height;
@@ -29,7 +29,7 @@ public class Slicer {
         int pieceY=0;
         for (int r=0;r<rows;r++){
             for (int c=0;c<columns;c++){
-                PuzzlePiece puzzlePiece=new PuzzlePiece(Bitmap.createBitmap(resizedBitmap,pieceX,pieceY,piecesWidth,piecesHeight),c,r,c,r);
+                PuzzlePiece puzzlePiece=new PuzzlePiece(Bitmap.createBitmap(resizedBitmap,pieceX,pieceY,piecesWidth,piecesHeight),r,c);
                 puzzlePieces.add(puzzlePiece);
                 pieceX+=piecesWidth;
             }
