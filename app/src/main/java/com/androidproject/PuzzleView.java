@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -18,6 +19,7 @@ public class PuzzleView extends View {
     public static int x;
     public static int y;
     private List<PuzzlePiece> puzzlePieces;
+    private PuzzlePiece missingPuzzlePiece;
     private GameManager gameManager;
     private PuzzlePiece touchedPiece;
 
@@ -44,6 +46,7 @@ public class PuzzleView extends View {
         this.y=y;
         ImageSlicer slicer = new ImageSlicer(bitmap,width,height,rows,columns);
         puzzlePieces=slicer.getPuzzlePieces();
+        missingPuzzlePiece=puzzlePieces.get(puzzlePieces.size()-1);
         puzzlePieces.remove(puzzlePieces.size() - 1); //remove the last piece from the puzzle
         gameManager=new GameManager(this);
         gameManager.calculateFreeDirections();
@@ -100,6 +103,15 @@ public class PuzzleView extends View {
                                     puzzlePiece.slideBackY();
                                 break;
                         }
+                        if(gameManager.isGameFinished()){
+                            puzzlePieces.add(missingPuzzlePiece);
+                            invalidate();
+                            Toast.makeText(MainActivity.activity, "you won !", Toast.LENGTH_LONG).show();
+                            MainActivity.shufflerButton.setEnabled(false);
+                            break;
+                        }
+
+
                     }
                 }
             }
@@ -113,6 +125,10 @@ public class PuzzleView extends View {
         }
         invalidate();
         return true;
+    }
+
+    public void shuffle(){
+        gameManager.shuffle();
     }
 
 }

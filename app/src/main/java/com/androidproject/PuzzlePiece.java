@@ -24,12 +24,21 @@ public class PuzzlePiece implements Slidable{
         this.bitmap = bitmap;
     }
 
+    public int getInitialCoordinateX() {
+        return initialCoordinateX;
+    }
+
+    public int getInitialCoordinateY() {
+        return initialCoordinateY;
+    }
+
     public int getCoordinateX() {
         return coordinateX;
     }
 
     public void setCoordinateX(int coordinateX) {
         this.coordinateX = coordinateX;
+        x=PuzzleView.x+coordinateX*bitmap.getWidth();
     }
 
     public int getCoordinateY() {
@@ -38,6 +47,7 @@ public class PuzzlePiece implements Slidable{
 
     public void setCoordinateY(int coordinateY) {
         this.coordinateY = coordinateY;
+        y=PuzzleView.y+coordinateY*bitmap.getHeight();
     }
 
     public int getX() {

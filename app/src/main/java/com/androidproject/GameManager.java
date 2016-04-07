@@ -2,6 +2,7 @@ package com.androidproject;
 
 
 import java.util.List;
+import java.util.Random;
 
 public class GameManager {
     private PuzzleView puzzleView;
@@ -52,7 +53,11 @@ public class GameManager {
     }
 
     public boolean isGameFinished() {
-        return false;
+        for(PuzzlePiece puzzlePiece:puzzleView.getPuzzlePieces()){
+            if(puzzlePiece.getCoordinateX()!=puzzlePiece.getInitialCoordinateX() || puzzlePiece.getCoordinateY()!=puzzlePiece.getInitialCoordinateY())
+                return false;
+        }
+        return true;
     }
 
     private PuzzlePiece getPuzzlePiece(List<PuzzlePiece> puzzlePieces, int coordinateX, int coordinateY) {
@@ -83,5 +88,49 @@ public class GameManager {
         for(PuzzlePiece puzzlePiece:puzzleView.getPuzzlePieces()){
             puzzlePiece.setFreeDirection(null);
         }
+    }
+
+    private Direction getRandomDirection(){
+        Random random=new Random();
+        return Direction.values()[random.nextInt(4)];
+    }
+
+    public void shuffle(){
+        PuzzlePiece puzzlePiece;
+        for(int i=0;i<1;i++){
+            Direction d=getRandomDirection();
+            switch(d){
+                case TOP:
+                    puzzlePiece=getAbovePuzzlePiece(puzzleView.getPuzzlePieces(), freeBoxX, freeBoxY);
+                    if(puzzlePiece!=null){
+                        puzzlePiece.setCoordinateY(puzzlePiece.getCoordinateY()+1);
+                        freeBoxY--;
+                    }
+                    break;
+                case RIGHT:
+                    puzzlePiece=getRightPuzzlePiece(puzzleView.getPuzzlePieces(), freeBoxX, freeBoxY);
+                    if(puzzlePiece!=null){
+                        puzzlePiece.setCoordinateX(puzzlePiece.getCoordinateX() - 1);
+                        freeBoxX++;
+                    }
+                    break;
+                case LEFT:
+                    puzzlePiece=getLeftPuzzlePiece(puzzleView.getPuzzlePieces(), freeBoxX, freeBoxY);
+                    if(puzzlePiece!=null){
+                        puzzlePiece.setCoordinateX(puzzlePiece.getCoordinateX() + 1);
+                        freeBoxX--;
+                    }
+                    break;
+                case DOWN:
+                    puzzlePiece=getBelowPuzzlePiece(puzzleView.getPuzzlePieces(), freeBoxX, freeBoxY);
+                    if(puzzlePiece!=null){
+                        puzzlePiece.setCoordinateY(puzzlePiece.getCoordinateY()-1);
+                        freeBoxY++;
+                    }
+                    break;
+            }
+        }
+        calculateFreeDirections();
+        puzzleView.invalidate();
     }
 }
