@@ -7,9 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
-    private RelativeLayout mainLayout;
-    public static PuzzleView puzzleView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
         Bitmap srcB = BitmapFactory.decodeResource(getResources(), R.drawable.image);
 
-        mainLayout = (RelativeLayout) findViewById(R.id.mainLayout);
-        puzzleView = new PuzzleView(this,srcB,srcB.getWidth()*2,srcB.getHeight()*2,3,3,0,0);
+        RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.mainLayout);
+        PuzzleView puzzleView = new PuzzleView(this,srcB,srcB.getWidth()*2,srcB.getHeight()*2,3,3,60,100);
         mainLayout.addView(puzzleView);
     }
 }

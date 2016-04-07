@@ -12,10 +12,7 @@ public class PuzzlePiece implements Slidable{
     private int coordinateY;
     private int x;
     private int y;
-    private boolean topFree;
-    private boolean rightFree;
-    private boolean leftFree;
-    private boolean bottomFree;
+    private Direction freeDirection;
     private boolean touched;
 
     //getters and setters
@@ -59,36 +56,12 @@ public class PuzzlePiece implements Slidable{
         this.y = y;
     }
 
-    public boolean isTopFree() {
-        return topFree;
+    public Direction getFreeDirection() {
+        return freeDirection;
     }
 
-    public void setTopFree(boolean topFree) {
-        this.topFree = topFree;
-    }
-
-    public boolean isRightFree() {
-        return rightFree;
-    }
-
-    public void setRightFree(boolean rightFree) {
-        this.rightFree = rightFree;
-    }
-
-    public boolean isLeftFree() {
-        return leftFree;
-    }
-
-    public void setLeftFree(boolean leftFree) {
-        this.leftFree = leftFree;
-    }
-
-    public boolean isBottomFree() {
-        return bottomFree;
-    }
-
-    public void setBottomFree(boolean bottomFree) {
-        this.bottomFree = bottomFree;
+    public void setFreeDirection(Direction freeDirection) {
+        this.freeDirection = freeDirection;
     }
 
     //constructor
@@ -128,32 +101,64 @@ public class PuzzlePiece implements Slidable{
 
     @Override
     public void followTouch(MotionEvent motionEvent) {
-        x=(int)motionEvent.getX() - bitmap.getWidth() / 2;
-        //y=(int)motionEvent.getY() - bitmap.getHeight() / 2;
+        if(freeDirection!=null){
+            switch(freeDirection){
+                case TOP:
+                    if(PuzzleView.y+(coordinateY-1)*bitmap.getHeight()+bitmap.getHeight()/2<=motionEvent.getY() &&
+                            motionEvent.getY()<=PuzzleView.y+coordinateY*bitmap.getHeight()+bitmap.getHeight()/2)
+                        y=(int)motionEvent.getY() - bitmap.getHeight() / 2;
+                    break;
+                case RIGHT:
+                    if(PuzzleView.x+coordinateX*bitmap.getWidth()+bitmap.getWidth()/2<=motionEvent.getX() &&
+                            motionEvent.getX()<=PuzzleView.x+(coordinateX+1)*bitmap.getWidth()+bitmap.getWidth()/2)
+                        x=(int)motionEvent.getX() - bitmap.getWidth() / 2;
+                    break;
+                case LEFT:
+                    if(PuzzleView.x+(coordinateX-1)*bitmap.getWidth()+bitmap.getWidth()/2<=motionEvent.getX() &&
+                            motionEvent.getX()<=PuzzleView.x+(coordinateX)*bitmap.getWidth()+bitmap.getWidth()/2)
+                        x=(int)motionEvent.getX() - bitmap.getWidth() / 2;
+                    break;
+                case DOWN:
+                    if(PuzzleView.y+coordinateY*bitmap.getHeight()+bitmap.getHeight()/2<=motionEvent.getY() &&
+                            motionEvent.getY()<=PuzzleView.y+(coordinateY+1)*bitmap.getHeight()+bitmap.getHeight()/2)
+                        y=(int)motionEvent.getY() - bitmap.getHeight() / 2;
+                    break;
+            }
+        }
     }
 
     @Override
     public void slideUp() {
-
+        y=PuzzleView.y+(coordinateY-1)*bitmap.getHeight();
+        coordinateY--;
     }
 
     @Override
     public void slideRight(){
         x=PuzzleView.x+(coordinateX+1)*bitmap.getWidth();
+        coordinateX++;
     }
 
     @Override
     public void slideLeft() {
         x=PuzzleView.x+(coordinateX-1)*bitmap.getWidth();
+        coordinateX--;
     }
 
     @Override
     public void slideDown() {
-
+        y=PuzzleView.y+(coordinateY+1)*bitmap.getHeight();
+        coordinateY++;
     }
 
     @Override
-    public void slideBack() {
+    public void slideBackX() {
         x=PuzzleView.x+coordinateX*bitmap.getWidth();
     }
+
+    @Override
+    public void slideBackY() {
+        y=PuzzleView.y+coordinateY*bitmap.getHeight();
+    }
 }
+

@@ -11,5 +11,6 @@ public interface Slidable {
     public void slideRight();
     public void slideLeft();
     public void slideDown();
-    public void slideBack();
+    public void slideBackX();
+    public void slideBackY();
 }
