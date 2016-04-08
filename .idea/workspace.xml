@@ -51,32 +51,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding>
-                <element signature="e#1027#1181#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PuzzleView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PuzzleView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/PuzzleView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75357145">
+            <state vertical-scroll-proportion="0.0">
               <caret line="109" column="72" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="72" />
-              <folding>
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/GameManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.66785717">
+              <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
               <folding>
                 <element signature="method#getPuzzlePiece#0;class#GameManager#0" expanded="false" />
                 <element signature="method#getAbovePuzzlePiece#0;class#GameManager#0" expanded="false" />
@@ -96,26 +90,8 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding>
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
                 <element signature="method#isTouched#0;class#PuzzlePiece#0" expanded="false" />
                 <element signature="method#wasTouched#0;class#PuzzlePiece#0" expanded="false" />
-                <element signature="e#4718#4719#0" expanded="true" />
-                <element signature="e#4778#4779#0" expanded="true" />
-                <element signature="e#4824#4825#0" expanded="true" />
-                <element signature="e#4885#4886#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1695,9 +1671,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/androidproject/PuzzlePiece.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/androidproject/ImageSlicer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/androidproject/GameManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/androidproject/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/androidproject/PuzzleView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/androidproject/GameManager.java" />
       </list>
     </option>
   </component>
@@ -1740,7 +1716,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -1750,83 +1726,9 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="androidproject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1839,7 +1741,7 @@
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Android_project-master/Game_v1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TP_List_View" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2032,12 +1934,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.79761904" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2048,13 +1947,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37414965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37414965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2088,10 +1990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2100,26 +1999,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
             <element signature="method#isTouched#0;class#PuzzlePiece#0" expanded="false" />
             <element signature="method#wasTouched#0;class#PuzzlePiece#0" expanded="false" />
-            <element signature="e#4718#4719#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
-            <element signature="e#4824#4825#0" expanded="true" />
-            <element signature="e#4885#4886#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2142,10 +2023,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2153,10 +2031,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2165,26 +2040,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
           <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
             <element signature="method#isTouched#0;class#PuzzlePiece#0" expanded="false" />
             <element signature="method#wasTouched#0;class#PuzzlePiece#0" expanded="false" />
-            <element signature="e#4718#4719#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
-            <element signature="e#4824#4825#0" expanded="true" />
-            <element signature="e#4885#4886#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2200,10 +2057,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2211,10 +2065,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2230,26 +2081,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
           <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
             <element signature="method#isTouched#0;class#PuzzlePiece#0" expanded="false" />
             <element signature="method#wasTouched#0;class#PuzzlePiece#0" expanded="false" />
-            <element signature="e#4718#4719#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
-            <element signature="e#4824#4825#0" expanded="true" />
-            <element signature="e#4885#4886#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2258,10 +2091,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2269,7 +2099,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2280,10 +2109,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="79" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2299,26 +2125,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
             <element signature="method#isTouched#0;class#PuzzlePiece#0" expanded="false" />
             <element signature="method#wasTouched#0;class#PuzzlePiece#0" expanded="false" />
-            <element signature="e#4718#4719#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
-            <element signature="e#4824#4825#0" expanded="true" />
-            <element signature="e#4885#4886#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2327,10 +2135,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2338,7 +2143,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2349,10 +2153,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="79" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2368,26 +2169,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
             <element signature="method#isTouched#0;class#PuzzlePiece#0" expanded="false" />
             <element signature="method#wasTouched#0;class#PuzzlePiece#0" expanded="false" />
-            <element signature="e#4718#4719#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
-            <element signature="e#4824#4825#0" expanded="true" />
-            <element signature="e#4885#4886#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2396,10 +2179,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2407,7 +2187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2418,10 +2197,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2429,10 +2205,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2440,10 +2213,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2451,7 +2221,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2462,10 +2231,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2473,10 +2239,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2484,7 +2247,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2495,10 +2257,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2506,10 +2265,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2517,7 +2273,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2528,10 +2283,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2539,10 +2291,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2550,7 +2299,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer">
@@ -2561,10 +2309,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2611,7 +2356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19962335">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2626,39 +2370,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/PuzzlePiece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
             <element signature="method#isTouched#0;class#PuzzlePiece#0" expanded="false" />
             <element signature="method#wasTouched#0;class#PuzzlePiece#0" expanded="false" />
-            <element signature="e#4718#4719#0" expanded="true" />
-            <element signature="e#4778#4779#0" expanded="true" />
-            <element signature="e#4824#4825#0" expanded="true" />
-            <element signature="e#4885#4886#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/PuzzleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="72" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/GameManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.66785717">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
           <folding>
             <element signature="method#getPuzzlePiece#0;class#GameManager#0" expanded="false" />
             <element signature="method#getAbovePuzzlePiece#0;class#GameManager#0" expanded="false" />
@@ -2667,28 +2409,6 @@
             <element signature="method#getBelowPuzzlePiece#0;class#GameManager#0" expanded="false" />
             <element signature="method#invalidateFreeDirections#0;class#GameManager#0" expanded="false" />
             <element signature="method#getRandomDirection#0;class#GameManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#1027#1181#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/androidproject/PuzzleView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75357145">
-          <caret line="109" column="72" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="72" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
           </folding>
         </state>
       </provider>

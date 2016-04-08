@@ -97,7 +97,7 @@ public class GameManager {
 
     public void shuffle(){
         PuzzlePiece puzzlePiece;
-        for(int i=0;i<1;i++){
+        for(int i=0;i<50;i++){
             Direction d=getRandomDirection();
             switch(d){
                 case TOP:
